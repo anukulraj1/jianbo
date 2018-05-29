@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,body {
+    height:100%;
+    width: 100%;
+}
+
+body {
+    display: table;
+}
+
+h1{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	font-size: 16px; 
+	font-weight: bold;
+	color: #000000;
+}
+
+
+p, a, li{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	font-size: 14px;
+	text-indent:inherit; 
+	font-weight: normal;
+	color: #000000;
+	text-align: justify;
+	line-height: 30px;
+}
+
+ol{
+	list-style: lower-roman;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #857C7C;
+}
+
+.table{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	font-size: 14px;
+	color: #7B7474;
+	text-align: justify;
+	line-height: 30px;
+}
+
+
+.table-borderless td,
+.table-borderless th {
+	border: 0;
+}
+
+.container {
+    height: auto;
+}
+
+.footer {
+    display: table-row;
+    height: 1px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.a {
+    word-wrap: normal;
+}
